@@ -1,0 +1,30 @@
+:root{
+    --Yellow: #FCFB30;
+    --Dark-Blue: #465EFF;
+
+    --Black:#000000;
+    --Gray-300: #BDBDBD;
+    --Whiter:#ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--gray-300);
+    color: var(--Black);
+    --webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+body,
+input,
+textarea,
+button {
+    /* font-family: ; */
+    /* font-weight: 400; */
+    font-size: 1rem;
+}
